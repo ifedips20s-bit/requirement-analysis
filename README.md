@@ -37,3 +37,22 @@ Requirement Analysis is a crucial step in the Software Development Life Cycle (S
 
 - **Requirement Validation:**  
   Reviewing and verifying the requirements with stakeholders to ensure accuracy, completeness, and alignment with business goals before development begins.
+## Types of Requirements
+### Functional Requirements
+Functional requirements describe **what the system should do** — the specific features or functions that the software must provide.
+
+**Examples for a Booking Management Project:**
+- Users can create, update, and cancel bookings.
+- Admins can approve or reject booking requests.
+- System sends email notifications when a booking is confirmed.
+- Users can search for available time slots based on date and service type.
+- Reports can be generated for daily or monthly bookings.
+### Non-functional Requirements
+Non-functional requirements describe **how the system performs** or the quality attributes the system must have. They define constraints and standards for the system.
+
+**Examples for a Booking Management Project:**
+- System should load booking pages within 2 seconds (Performance).  
+- Data must be encrypted to ensure user privacy (Security).  
+- The application should be accessible on both desktop and mobile devices (Usability).  
+- The system should be available 99.9% of the time (Reliability).  
+- The system should be able to handle up to 500 simultaneous users (Scalability).
