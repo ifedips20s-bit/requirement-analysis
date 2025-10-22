@@ -56,3 +56,38 @@ Non-functional requirements describe **how the system performs** or the quality 
 - The application should be accessible on both desktop and mobile devices (Usability).  
 - The system should be available 99.9% of the time (Reliability).  
 - The system should be able to handle up to 500 simultaneous users (Scalability).
+## Use Case Diagrams
+A **Use Case Diagram** is a visual representation of the interactions between **users (actors)** and a system. It helps stakeholders and developers understand the functional requirements of the system and how users interact with it.
+
+**Benefits of Use Case Diagrams:**
+- Provides a clear visualization of system functionality.
+- Helps identify all possible interactions between users and the system.
+- Facilitates communication between developers and stakeholders.
+- Supports requirement validation by showing expected system behavior
+### Booking System Use Case Diagram
+The main **actors** in the booking system are:  
+- User  
+- Admin 
+The key **use cases** include:  
+- Create Booking  
+- Update Booking  
+- Cancel Booking  
+- Approve/Reject Booking  
+- Generate Reports  
+- Send Notifications 
+![Alt text](img/alx-booking-uc.drawio.png)
+## Acceptance Criteria
+**Acceptance Criteria** are the conditions that a software product must satisfy to be accepted by the stakeholders, ensuring that the feature works as intended. They provide clear guidelines for developers, testers, and stakeholders to confirm that the requirements have been met.
+
+**Importance of Acceptance Criteria in Requirement Analysis:**
+- Clarifies the expected behavior of features before development begins.
+- Helps avoid misunderstandings between stakeholders and developers.
+- Provides a basis for testing and validation of features.
+- Ensures that all functional and non-functional requirements are met.
+
+**Example: Acceptance Criteria for the Checkout Feature in a Booking Management System**
+- Users can review their booking details before confirming payment.  
+- The system accepts valid payment methods (credit card, debit card, or digital wallet).  
+- Successful payment generates a confirmation message and sends an email notification to the user.  
+- If payment fails, the system displays an error message and does not finalize the booking.  
+- The booking details are saved in the system after successful payment.
