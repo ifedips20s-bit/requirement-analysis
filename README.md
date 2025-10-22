@@ -76,7 +76,7 @@ The key **use cases** include:
 - Generate Reports  
 - Send Notifications 
 
-![Alt text](img/alx-booking-uc.png)
+![Alt text](alx-booking-uc.png/alx-booking-uc.png)
 ## Acceptance Criteria
 **Acceptance Criteria** are the conditions that a software product must satisfy to be accepted by the stakeholders, ensuring that the feature works as intended. They provide clear guidelines for developers, testers, and stakeholders to confirm that the requirements have been met.
 
